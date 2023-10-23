@@ -5,8 +5,8 @@ require 'vendor/autoload.php';
 use Illuminate\Support\Collection;
 
 // Load JSON data
-$data = json_decode(file_get_contents('products.json'), true);
-$products = new Collection($data);
+$load_data = json_decode(file_get_contents('products.json'), true);
+$products = new Collection($load_data);
 
 // Task 2: Output the total sum of prices in pounds GBP
 $totalPriceGBP = $products->sum(function ($product) {
