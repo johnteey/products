@@ -1,0 +1,9 @@
+[
+  { "category": "Laptop", "name": "Dell", "price_in_pence": 105000 },
+  { "category": "Phone", "name": "Samsung Galaxy", "price_in_pence": 60000 },
+  { "category": "Graphics Card", "name": "1090", "price_in_pence": 247400 },
+  { "category": "Phone", "name": "Google Pixel", "price_in_pence": 550000 },
+  { "category": "Laptop", "name": "HP", "price_in_pence": 119999 },
+  { "category": "Graphics Card", "name": "4090", "price_in_pence": 399900 },
+  { "category": "Phone", "name": "iPhone", "price_in_pence": 80000 }
+]
